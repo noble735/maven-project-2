@@ -78,13 +78,11 @@
               <artifactId>maven-surefire-report-plugin</artifactId>
             </plugin>
 
-           <!-- https://mvnrepository.com/artifact/org.sonarsource.api.plugin/sonar-plugin-api -->
-<plugin>
-    <groupId>org.sonarsource.api.plugin</groupId>
-    <artifactId>sonar-plugin-api</artifactId>
-    <version>10.12.0.2522</version>
-    <scope>provided</scope>
-</plugin>
+            <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>findbugs-maven-plugin</artifactId>
+          <version>4.1.0-SNAPSHOT</version>
+        </plugin>
 
                 
 
