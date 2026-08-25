@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://3.14.150.50/nexus/content/repositories/webappsnapshots/</url>
+            <url>http://3.14.150.50:4000/nexus/content/repositories/webappsnapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://3.14.150.50/nexus/content/repositories/webappreleases/</url>
+            <url>http://3.14.150.50:4000/nexus/content/repositories/webappreleases/</url>
         </repository>
   </distributionManagement>
 
