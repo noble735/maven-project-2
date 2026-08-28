@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://18.220.120.123:4000/nexus/content/repositories/webappsnapshots/</url>
+            <url>http://52.15.46.179:4000/nexus/content/repositories/webappsnapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://18.220.120.123:4000/nexus/content/repositories/webappreleases/</url>
+            <url>http://52.15.46.179:4000/nexus/content/repositories/webappreleases/</url>
         </repository>
   </distributionManagement>
 
